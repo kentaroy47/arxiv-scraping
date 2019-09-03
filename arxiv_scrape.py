@@ -24,9 +24,9 @@ for i in range(len(result)):
 
 print("get citations")
 citation_num_list = []
-for i in data["id"]:
-  if i % 10 == 0:
-      print(i)
+for num, i in enumerate(data["id"]):
+  if num % 10 == 0:
+      print(num)
   try:
     sem = requests.get("https://api.semanticscholar.org/v1/paper/arXiv:"+i).json()
     citation_num = len(sem["citations"])
