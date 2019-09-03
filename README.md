@@ -1,7 +1,5 @@
 # arxiv-scraping
-let's scrape arxiv papers by python.
-
-
+let's scrape deep-learning arxiv papers by python!
 
 Number of citations are acquired from semantic scholar.
 
